@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.tela {
+  background: rgb(17, 16, 16);
+  width: 350px;
+  margin: 80px auto;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tela h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #fffafa;
+}
+
+p {
+  color: #ede0e0;
+  margin-bottom: 30px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.formulario label {
+  margin-bottom: 5px;
+  color: #f3e8e8;
+  font-weight: 500;
+}
+
+.formulario input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.lembrar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #dddbdb;
+  
+}
+
+.esqueceu {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 14px;
+  color: hsl(0, 0%, 92%);
+  text-decoration: none;
+}
+
+.esqueceu:hover {
+  text-decoration: underline;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #6e0069;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background: #6e0069;
+}
